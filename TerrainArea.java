@@ -2,7 +2,7 @@ public class TerrainArea {
 
     public static final int PRECISION = 10000;
 
-    private int rows, columns; // grid size
+    public int rows, columns; // grid size
     private double xmin, xmax, ymin, ymax; // x and y terrain limits
     private int[][] heights;
     private int[][] visit;
